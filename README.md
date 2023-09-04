@@ -4,7 +4,9 @@ Defining a set of URL endpoints in conf.yaml, the script will GET these endpoint
 
 ## Env vars
 
+````
 export SLACKWEBHOOK=https://hooks.slack.com/services/...
+````
 
 ## Log
 
