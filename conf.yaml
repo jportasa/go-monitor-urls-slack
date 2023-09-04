@@ -1,0 +1,6 @@
+
+endpoints:
+- url: http://www.equisens.es
+  timeout: 1
+- url: http://www.cisco.com
+  timeout: 2
