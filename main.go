@@ -3,7 +3,6 @@ package main
 import (
 	"errors"
 	"fmt"
-	"io/ioutil"
 	"log"
 	"net/http"
 	"net/url"
@@ -22,7 +21,7 @@ type conf struct {
 }
 
 func getConf(c *conf) {
-	yamlFile, err := ioutil.ReadFile("conf.yaml")
+	yamlFile, err := os.ReadFile("conf.yaml")
 	if err != nil {
 		log.Printf("yamlFile.Get err   #%v ", err)
 	}
